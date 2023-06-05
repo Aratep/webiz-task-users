@@ -1,0 +1,22 @@
+.post-item {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(210,8%,97.5%);
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    width: 85%;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+
+        &-title {}
+
+        &-remove_icon {
+            cursor: pointer;
+        }
+    }
+
+    &__body {}
+}
